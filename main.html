@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <meta name="description" content="Roughly 155 characters">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+  </head>
+  <body>
+    <div id="display"><input type="text" name="display" id="numBox" disabled></div>
+    <div class="btns">
+        <button type="button" class="numbutton" id=1>1</button>
+        <button type="button" class="numbutton" id=2>2</button>
+        <button type="button" class="numbutton" id=3>3</button>
+        <button type="button" class="operbutton" id="add">+</button>
+    </br>
+        <button type="button" class="numbutton" id=4>4</button>
+        <button type="button" class="numbutton" id=5>5</button>
+        <button type="button" class="numbutton" id=6>6</button>
+        <button type="button" class="operbutton" id="sub">-</button>
+    </br>
+        <button type="button" class="numbutton" id=7>7</button>
+        <button type="button" class="numbutton" id=8>8</button>
+        <button type="button" class="numbutton" id=9>9</button>
+        <button type="button" class="operbutton" id="multi">*</button>
+    </br>
+        <button type="button" class="decbutton numbutton" id=.>.</button>
+        <button type="button" class="numbutton" id=0>0</button>
+        <button class="numbutton" disabled>#</button>
+        <button type="button" class="operbutton" id="divide">/</button>
+</br>
+
+
+        <button type="button" class="equalbutton" id="=" onclick=operate(operType)>=</button>
+    </br>
+        <button type="button" class="clearbutton" id="clearbutton" onclick=clearAll()>Clear All</button>
+        <button type="button" class="clearbutton" id="back" onclick=clearDisp()>Clear</button>
+    </div> 
+  </body>
+  <script src="script.js"></script>
+</html>

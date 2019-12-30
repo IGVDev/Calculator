@@ -1,0 +1,53 @@
+body {
+background-color: grey;
+}
+
+input {
+  height: 25px;
+  width: 200px;
+  border-radius: 50px;
+  text-align: center;
+  color:black;
+  margin-bottom:10px;
+  font-size:20px;
+}
+
+.btns {
+  text-align:center;
+}
+button {
+  font-size:20px;
+}
+#display {
+  border-radius: 50px;
+  text-align:center;
+}
+
+.numbutton {
+  height: 50px;
+  width: 50px;
+  border-radius:50px;
+  background-color:black;
+  color:white;
+}
+.clearbutton {
+  height:50px;
+  width:100px;
+  border-radius:50px;
+  background-color:darkred;
+  color:white;
+}
+.operbutton {
+  height: 50px;
+  width: 50px;
+  border-radius:50px;
+  background-color:orange;
+}
+
+.equalbutton {
+  width: 200px;
+  height: 50px;
+  border-radius:50px;
+  background-color:green;
+  color:white;
+}
